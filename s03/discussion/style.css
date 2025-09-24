@@ -1,0 +1,110 @@
+/*
+CSS Rules Syntax:
+selector {
+	property1: value1;
+	property2: value2;
+}
+
+*/
+
+/*Universal Selector*/
+
+*{
+	font-family: "Courier New", monospace;
+
+	/*CSS Reset Rule*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Type selector*/
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+
+/*background color to your webpage*/
+/*background-color is a CSS property that allows us to update the bg color of an element*/
+body{
+	/*background-color: skyblue;*/
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+section{
+	text-align: center;
+}
+
+nav{
+	background-color: white;
+	text-align: center;
+/*padding is a property that allows us to add a space within element*/
+	padding: 15px;
+}
+
+/*class selector*/
+.title{
+	/*color: green;*/
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*id selector*/
+#hello{
+	color: black;
+	font-size: 2rem;
+}
+
+/*height property changes the vertical dimensions of an element*/
+/*width property changes the horizaontal dimensions of an element*/
+/*border-radius propert changes the corners of an element from a sharp to a round corner*/
+
+#logo{
+	height: 300px;
+	width: 300px;
+
+	border-radius: 150px;
+
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+.module-card{
+	border: 2px solid black;
+
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	background-color: white;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-radius: 10px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#modules{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader{
+	margin-top: 30px;
+}
+
+.module-image{
+	height: 200px;
+	width: 200px;
+}
